@@ -1,0 +1,71 @@
+<pyvcp>
+	<labelframe text="FDM temperature">
+		<font>("Helvetica",14)</font>
+                <hbox>
+		       <number>
+			       <halpin>"fdm-signal"</halpin>
+			       <font>("Helvetica",14)</font>
+			       <format>"4.1f"</format>
+			       <width>15</width>
+			       <justify>LEFT</justify>
+                               <padx>2</padx>
+                       </number>
+                       <label>
+                              <text>"°C"</text>
+                              <font>("Helvetica",14)</font>
+                       </label>
+                </hbox>
+	</labelframe>
+
+	<labelframe text="Bed temperature">
+		<font>("Helvetica",14)</font>
+                <hbox>
+		       <number>
+			       <halpin>"bed-signal"</halpin>
+			       <font>("Helvetica",14)</font>
+			       <format>"4.1f"</format>
+			       <width>15</width>
+			       <justify>LEFT</justify>
+                               <padx>2</padx>
+                       </number>
+                       <label>
+                              <text>"°C"</text>
+                              <font>("Helvetica",14)</font>
+                       </label>
+                </hbox>
+	</labelframe>
+
+	<labelframe text="Extruder temperature">
+		<font>("Helvetica",14)</font>
+                <hbox>
+		       <number>
+			       <halpin>"ext-signal"</halpin>
+			       <font>("Helvetica",14)</font>
+			       <format>"4.1f"</format>
+			       <width>15</width>
+			       <justify>LEFT</justify>
+                               <padx>2</padx>
+                       </number>
+                       <label>
+                              <text>"°C"</text>
+                              <font>("Helvetica",14)</font>
+                       </label>
+                </hbox>
+	</labelframe>
+
+	<labelframe text="Flow">
+		<font>("Helvetica",14)</font>
+		<spinbox>
+		       <halpin>"scale-factor"</halpin>
+			<min_>0</min_>
+			<max_>3</max_>
+			<initval>1</initval>
+			<resolution>0.01</resolution>
+			<format>"1.2f"</format>
+			<font>("Helvetica",14)</font>
+			<width>2</width>
+			<justify>CENTER</justify>
+		</spinbox>
+	</labelframe>
+
+</pyvcp>

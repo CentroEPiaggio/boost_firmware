@@ -1,0 +1,21 @@
+<pyvcp>
+  <vbox>
+    <hbox>
+      <led>
+        <halpin>"probe-in"</halpin>
+        <size>15</size>
+        <on_color>"red"</on_color>
+        <off_color>"green"</off_color>
+      </led>
+      <label>
+        <text>"Probe"</text>
+      </label>
+    </hbox>
+    <label>
+      <text>"closed (red)"</text>
+    </label>
+    <label>
+      <text>"open (green)"</text>
+    </label>
+  </vbox>
+</pyvcp>

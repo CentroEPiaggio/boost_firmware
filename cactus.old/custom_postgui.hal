@@ -1,0 +1,10 @@
+# Include your custom_postgui HAL commands here
+# This file will not be overwritten when you run PNCconf again
+
+#  --- Arduino ---
+loadusr -Wn arduino $HOME/script/arduino.py
+
+#  --- Probe ---
+#net probe-in => motion.probe-input
+#net probe-in <= hm2_7i80.0.7i76.0.0.input-07-not
+#net probe-in => pyvcp.probe-in
